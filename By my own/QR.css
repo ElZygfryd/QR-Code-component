@@ -1,0 +1,49 @@
+/* font-family: "Outfit", sans-serif; */
+
+/* Style reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  background-color: hsl(212, 45%, 89%);
+}
+
+div.qrcard {
+  position: absolute;
+  top: 15vh;
+  left: 40vw;
+  width: 22vw;
+  height: 35vw;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+div.qrcard img {
+  width: 22vw;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+div.content {
+  font-family: "Outfit", sans-serif;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+div.content h1 {
+  font-size: 25px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  margin: 10px;
+}
+
+div.content p {
+  margin: 0 15px;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+}
